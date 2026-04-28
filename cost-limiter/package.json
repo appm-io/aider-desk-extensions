@@ -1,0 +1,11 @@
+{
+  "name": "cost-limiter-extension",
+  "version": "1.0.0",
+  "description": "Limits the maximum cost of a task",
+  "main": "index.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
