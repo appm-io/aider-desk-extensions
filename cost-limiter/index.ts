@@ -21,7 +21,7 @@ export default class CostLimiterExtension implements Extension {
     name: 'Cost Limiter',
     version: '1.0.0',
     description: 'Limits the maximum cost of a task to prevent unexpected high costs from loops.',
-    author: 'AiderDesk',
+    author: 'Appm.io',
     capabilities: ['events', 'ui'],
   };
 
