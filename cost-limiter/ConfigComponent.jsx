@@ -12,7 +12,7 @@
         label="Maximum Cost (USD)"
         type="number"
         min="0"
-        step="0.1"
+        step="1"
         value={config?.maxCostUsd !== undefined ? config.maxCostUsd : 10}
         onChange={(e) => {
           const val = e && typeof e === 'object' && e.target ? e.target.value : e;

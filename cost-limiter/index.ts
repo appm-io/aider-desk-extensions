@@ -19,7 +19,7 @@ const DEFAULT_CONFIG: CostLimiterConfig = {
 export default class CostLimiterExtension implements Extension {
   static metadata = {
     name: 'Cost Limiter',
-    version: '1.0.0',
+    version: '1.0.1',
     description: 'Limits the maximum cost of a task to prevent unexpected high costs from loops.',
     author: 'Appm.io',
     capabilities: ['events', 'ui'],

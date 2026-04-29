@@ -25,7 +25,7 @@
         <input
           type="number"
           min="0"
-          step="0.1"
+          step="1"
           className="w-14 px-1 py-0.5 bg-bg-primary border border-border-default rounded text-2xs text-text-primary focus:outline-none focus:border-brand-primary text-center"
           value={limit}
           onChange={handleLimitChange}
