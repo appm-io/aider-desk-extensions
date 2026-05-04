@@ -1,0 +1,31 @@
+{
+  "extensions": [
+    {
+      "id": "cost-limiter",
+      "name": "Cost Limiter",
+      "description": "Limits the maximum cost of a task to prevent unexpected high costs from loops",
+      "folder": "cost-limiter",
+      "type": "folder",
+      "hasDependencies": false,
+      "capabilities": ["events", "ui"]
+    },
+    {
+      "id": "command-listener",
+      "name": "Command Listener",
+      "description": "Executes task commands (compact, rename, etc.) embedded in Aider responses",
+      "folder": "command-listener",
+      "type": "folder",
+      "hasDependencies": false,
+      "capabilities": ["events"]
+    },
+    {
+      "id": "model-context-switcher",
+      "name": "Model Context Switcher",
+      "description": "Automatically switches to models with larger context windows when context limits are reached",
+      "folder": "model-context-switcher",
+      "type": "folder",
+      "hasDependencies": false,
+      "capabilities": ["events", "ui"]
+    }
+  ]
+}

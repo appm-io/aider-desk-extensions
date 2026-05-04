@@ -275,7 +275,8 @@ export default class ModelContextSwitcherExtension implements Extension {
 
       const taskData = taskContext.data as any;
       const metadata = { ...(taskData.metadata ?? {}) };
-      metadata.switcherDisabled = !metadata.switcherDisabled;
+      // undefined/false → true (disable); true → false (re-enable)
+      metadata.switcherDisabled = metadata.switcherDisabled !== true;
       await taskContext.updateTask({ metadata });
       context.triggerUIDataRefresh('switcher-display');
       return { success: true };
