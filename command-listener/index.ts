@@ -19,7 +19,7 @@ import type {
 export default class CommandListenerExtension implements Extension {
   static metadata = {
     name: 'Command Listener',
-    version: '1.0.0',
+    version: '1.0.1',
     description:
       'Executes task commands (compact, rename, etc.) embedded in Aider responses',
     author: 'Appm.io',

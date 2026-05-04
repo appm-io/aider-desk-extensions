@@ -1,0 +1,11 @@
+{
+  "name": "model-context-switcher-extension",
+  "version": "1.0.0",
+  "description": "Switches models automatically based on context size",
+  "main": "index.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
